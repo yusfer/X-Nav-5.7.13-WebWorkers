@@ -3,6 +3,7 @@ self.onmessage = function(event) {
 }
 
 function sacaPrimos(numero) {
+	
   var n = 1;
   primelist = "";
   search: while (n<parseInt(numero)) {

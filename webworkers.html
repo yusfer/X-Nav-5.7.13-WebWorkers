@@ -10,7 +10,9 @@
 		worker.postMessage(numero)
 		worker.onmessage = function(event) {
 			document.getElementById('result').innerHTML = event.data;
+			worker.terminate()
 }
+		
 }
   </script>
 
